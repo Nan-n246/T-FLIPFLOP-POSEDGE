@@ -28,15 +28,60 @@ From the above characteristic table, we can directly write the next state equati
 
 **Procedure**
 
-/* write all the steps invloved */
+ 1. Type the program in Quartus software.
+
+ 2. Compile and run the program.
+
+ 3. Generate the RTL schematic and save the logic diagram.
+
+ 4. Create nodes for inputs and outputs to generate the timing diagram.
+
+ 5. For different input combinations generate the timing diagram
+
 
 **PROGRAM**
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
+/* Program for flipflops and verify its truth table in quartus using Verilog programming.
+Developed by:NANDHINI.S
+RegisterNumber:24013591
 */
+```
+  module t_ff_ (t, clk, rst, q);
+
+ input t, clk, rst;
+
+ output reg q;
+
+ always @(posedge clk or posedge rst)
+
+ begin
+
+ if (rst)
+
+ q <= 0; // Reset the flip-flop
+
+ else if (t==0)
+
+ q <= q;
+
+else
+
+ q<=~q;
+
+ end
+
+ endmodul
+```
 
 **RTL LOGIC FOR FLIPFLOPS**
 
+![Uploading Screenshot 2024-12-21 094504.png…](![Screenshot 2024-12-21 094504](https://github.com/user-attachments/assets/0576669d-6ca7-4163-99cc-4c6a4d539118)
+
+
 **TIMING DIGRAMS FOR FLIP FLOPS**
+![Screenshot 2024-12-21 094533](https://github.com/user-attachments/assets/6f7e2197-48bc-4697-b213-578b6e6aa0ae)
+
 
 **RESULTS**
+ Thus the T flipflop using verilog implemented and validated their functionality using
+ their functional tables.
