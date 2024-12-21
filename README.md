@@ -75,7 +75,8 @@ else
 
 **RTL LOGIC FOR FLIPFLOPS**
 
-![Uploading Screenshot 2024-12-21 094504.png…](![Screenshot 2024-12-21 094504](https://github.com/user-attachments/assets/0576669d-6ca7-4163-99cc-4c6a4d539118)
+![Screenshot 2024-12-21 094504](https://github.com/user-attachments/assets/43a5a776-f9c2-48aa-aa48-45032f14ceda)
+
 
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
